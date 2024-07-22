@@ -120,49 +120,50 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-12 d-flex justify-content-center">
-                                            <button type="submit" class="btn btn-success mx-2">Generar
-                                                Comprobante</button>
+                                            <button type="submit" class="btn btn-success mx-2">Agregar</button>
                                             <button class="btn btn-light mx-2">Cancelar Venta</button>
                                         </div>
                                 </form>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card">
-                        <div class="table-responsive col-sm-12">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>N°</th>
-                                        <th>Cliente</th>
-                                        <th>Fecha</th>
-                                        <th>Agregado</th>
-                                        <th>Cantidad</th>
-                                        <th>Monto</th>
-                                        <th>Acciones</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Gus</td>
-                                        <td>21/03/2024</td>
-                                        <td>Agregado 1</td>
-                                        <td>13 cubos</td>
-                                        <td>S/.3200</td>
-                                        <td>
-                                            <button type="button" class="btn btn-warning btn-sm me-2">Editar</button><button
-                                                type="button" class="btn btn-danger btn-sm">Eliminar</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                </div>
+                <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="table-responsive col-sm-12">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>N°</th>
+                                    <th>Cliente</th>
+                                    <th>Fecha</th>
+                                    <th>Agregado</th>
+                                    <th>Cantidad</th>
+                                    <th>Monto</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Gus</td>
+                                    <td>21/03/2024</td>
+                                    <td>Agregado 1</td>
+                                    <td>13 cubos</td>
+                                    <td>S/.3200</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning btn-sm me-2">Editar</button>
+                                        <button type="button" class="btn btn-info btn-sm me-2">Ruta</button>
+                                        <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     <footer class="footer">

@@ -35,14 +35,14 @@
                                                         class="col-sm-3 col-form-label">Matricula</label>
                                                     <div class="col-sm-9">
                                                         <input type="text" class="form-control"
-                                                            id="exampleInputUsername2" placeholder="Matricula">
+                                                            id="matricula" placeholder="Matricula">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
                                                     <label for="exampleSelectGender"
                                                         class="col-sm-3 col-form-label">Tipo de Combustible</label>
                                                     <div class="col-sm-9">
-                                                        <select class="form-control" id="exampleSelectGender">
+                                                        <select class="form-control" id="combustible">
                                                             <option>1</option>
                                                             <option>2</option>
                                                         </select>

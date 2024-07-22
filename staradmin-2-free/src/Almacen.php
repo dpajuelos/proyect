@@ -5,16 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Agregados</title>
-    <?php require_once "modules/header.php"?>
+    <?php require_once "modules/header.php" ?>
 </head>
 
 <body class="with-welcome-text">
     <div class="container-scroller">
-        v <?php require_once "modules/navbar.php"?>
+        v <?php require_once "modules/navbar.php" ?>
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="col-lg-12 grid-margin stretch-card">
                         <div class="card">
                             <div class="card-body">
                                 <div class="col text-center">
@@ -24,49 +24,39 @@
                                 <form class="forms-sample">
                                     <div class="col-sm-12">
                                         <div class="form-group row">
-                                            <label for="exampleSelectGender"
-                                                class="col-sm-3 col-form-label">Agregado</label>
-                                            <div class="col-sm-9">
+                                            <label for="exampleSelectGender" class="col-sm-1 col-form-label">Agregado</label>
+                                            <div class="col-sm-3">
                                                 <select class="form-select" id="exampleSelectGender">
-                                                    <option>1</option>
-                                                    <option>2</option>
+                                                    <option>Hormigón</option>
+                                                    <option>Arena Fina</option>
+                                                    <option>Arena Gruesa</option>
+                                                    <option>Tierra Negra</option>
+                                                    <option>Piedra Chancada</option>
                                                 </select>
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Unidades</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="Unidades">
+                                            <label for="exampleInputPassword4" class="col-sm-1 col-form-label">Unidades</label>
+                                            <div class="col-sm-3">
+                                                <input type="text" class="form-control" id="exampleInputPassword4" placeholder="Unidades">
+                                            </div>
+                                            <label for="exampleInputPassword4" class="col-sm-1 col-form-label">Cantidad</label>
+                                            <div class="col-sm-3">
+                                                <input type="number" class="form-control" id="exampleInputPassword4" placeholder="Cantidad de agregado">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Cantidad</label>
-                                            <div class="col-sm-9">
-                                                <input type="number" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="Cantidad de agregado">
+                                            <label for="exampleInputPassword4" class="col-sm-2 col-form-label">Precio unitario</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="exampleInputPassword4" placeholder="S/.">
                                             </div>
-                                        </div>                                       
-                                        <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio unitatio</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="S/.">
+                                            <label for="exampleInputPassword4" class="col-sm-2 col-form-label">Precio Total</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="exampleInputPassword4" placeholder="S/.">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio Total</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="S/.">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="exampleTextarea1"
-                                                class="col-sm-3 col-form-label">Descripcion</label>
-                                            <div class="col-sm-9">
-                                                <textarea class="form-control" id="exampleTextarea1"
-                                                    rows="4"></textarea>
+                                            <label for="exampleTextarea1" class="col-sm-2 col-form-label">Descripción</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 d-flex justify-content-center">
@@ -78,14 +68,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 grid-margin stretch-card">
+                <div class="col-lg-12 grid-margin stretch-card">
                     <div class="table-responsive col-sm-12">
                         <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th>N°</th>
                                     <th>Agregado</th>
-                                    <th>Fecha</th>   
+                                    <th>Fecha</th>
                                     <th>Cantidad</th>
                                     <th>Monto</th>
                                     <th>Acciones</th>
@@ -99,8 +89,7 @@
                                     <td>13 cubos</td>
                                     <td>S/.3200</td>
                                     <td>
-                                        <button type="button" class="btn btn-warning btn-sm me-2">Editar</button><button
-                                            type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                                        <button type="button" class="btn btn-warning btn-sm me-2">Editar</button><button type="button" class="btn btn-danger btn-sm">Eliminar</button>
                                     </td>
                                 </tr>
                             </tbody>
@@ -124,6 +113,6 @@
     </div>
     <!-- page-body-wrapper ends -->
     </div>
-    <?php require_once "modules/scripts.php"?>
+    <?php require_once "modules/scripts.php" ?>
 
 </html>

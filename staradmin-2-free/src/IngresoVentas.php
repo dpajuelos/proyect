@@ -10,7 +10,7 @@
 
 <body class="with-welcome-text">
     <div class="container-scroller">
-        v <?php require_once "modules/navbar.php"?>
+         <?php require_once "modules/navbar.php"?>
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">

@@ -34,28 +34,32 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Unidades</label>
+                                            <label for="exampleInputPassword4"
+                                                class="col-sm-3 col-form-label">Unidades</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control" id="exampleInputPassword4"
                                                     placeholder="Unidades">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Cantidad</label>
+                                            <label for="exampleInputPassword4"
+                                                class="col-sm-3 col-form-label">Cantidad</label>
                                             <div class="col-sm-9">
                                                 <input type="number" class="form-control" id="exampleInputPassword4"
                                                     placeholder="Cantidad de agregado">
                                             </div>
-                                        </div>                                       
+                                        </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio unitatio</label>
+                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio
+                                                unitatio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control" id="exampleInputPassword4"
                                                     placeholder="S/.">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio Total</label>
+                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio
+                                                Total</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control" id="exampleInputPassword4"
                                                     placeholder="S/.">
@@ -85,7 +89,7 @@
                                 <tr>
                                     <th>N°</th>
                                     <th>Agregado</th>
-                                    <th>Fecha</th>   
+                                    <th>Fecha</th>
                                     <th>Cantidad</th>
                                     <th>Monto</th>
                                     <th>Acciones</th>

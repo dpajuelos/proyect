@@ -5,16 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ventas</title>
-    <?php require_once "modules/header.php"?>
+    <?php require_once "modules/header.php" ?>
 </head>
 
 <body class="with-welcome-text">
     <div class="container-scroller">
+<<<<<<< HEAD
          <?php require_once "modules/navbar.php"?>
+=======
+        <?php require_once "modules/navbar.php" ?>
+>>>>>>> 52614c5d33333e35e854e07b374e63a50ef468e8
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">
-                    <div class="col-lg-6 grid-margin stretch-card">
+                    <div class="col-lg-12 grid-margin stretch-card">
                         <div class="card">
                             <div class="card-body">
                                 <div class="col text-center">
@@ -24,99 +28,72 @@
                                 <form class="forms-sample">
                                     <div class="col-sm-12">
                                         <div class="form-group row">
-                                            <label for="exampleInputName1"
-                                                class="col-sm-3 col-form-label">Cliente</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputName1"
-                                                    placeholder="Cliente">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-sm-3 col-form-label">Tipo</label>
+                                            <label for="exampleInputName1" class="col-sm-1 col-form-label">Cliente</label>
                                             <div class="col-sm-4">
+                                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Cliente">
+                                            </div>
+                                            <label class="col-sm-1 col-form-label">Tipo</label>
+                                            <div class="col-sm-3">
                                                 <div class="form-check">
                                                     <label class="form-check-label">
-                                                        <input type="radio" class="form-check-input"
-                                                            name="membershipRadios" id="membershipRadios1" value=""
-                                                            checked> Natural </label>
+                                                        <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked> Natural </label>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="col-sm-3">
                                                 <div class="form-check">
                                                     <label class="form-check-label">
-                                                        <input type="radio" class="form-check-input"
-                                                            name="membershipRadios" id="membershipRadios2"
-                                                            value="option2"> Jurídica </label>
+                                                        <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2"> Jurídica </label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleInputEmail3"
-                                                class="col-sm-3 col-form-label">Cliente</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputName1"
-                                                    placeholder="Cliente">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="exampleSelectGender"
-                                                class="col-sm-3 col-form-label">Agregado</label>
-                                            <div class="col-sm-9">
+                                            <label for="exampleSelectGender" class="col-sm-2 col-form-label">Agregado</label>
+                                            <div class="col-sm-2">
                                                 <select class="form-select" id="exampleSelectGender">
-                                                    <option>1</option>
-                                                    <option>2</option>
+                                                    <option>Hormigón</option>
+                                                    <option>Arena Fina</option>
+                                                    <option>Arena Gruesa</option>
+                                                    <option>Tierra Negra</option>
+                                                    <option>Piedra Chancada</option>
                                                 </select>
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Cantidad
+                                            <label for="exampleInputPassword4" class="col-sm-2 col-form-label">Cantidad
                                                 Comprada</label>
-                                            <div class="col-sm-9">
-                                                <input type="number" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="Cantidad Comprada">
+                                            <div class="col-sm-2">
+                                                <input type="number" class="form-control" id="exampleInputPassword4" placeholder="Cantidad (m3)">
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label for="exampleInputPassword4" class="col-sm-3 col-form-label">Precio
+                                            <label for="exampleInputPassword4" class="col-sm-2 col-form-label">Precio
                                                 Total</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="Precio Total">
+                                            <div class="col-sm-2">
+                                                <input type="text" class="form-control" id="exampleInputPassword4" placeholder="Precio Total">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleSelectGender"
-                                                class="col-sm-3 col-form-label">Unidad</label>
-                                            <div class="col-sm-9">
+                                            <label for="exampleSelectGender" class="col-sm-2 col-form-label">Unidad</label>
+                                            <div class="col-sm-2">
                                                 <select class="form-select mt" id="exampleSelectGender">
                                                     <option>1</option>
                                                     <option>2</option>
                                                 </select>
                                             </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="col-sm-3 col-form-label">Tipo de Comprobante</label>
-                                            <div class="col-sm-9">
+                                            <label class="col-sm-2 col-form-label">Tipo de Comprobante</label>
+                                            <div class="col-sm-3">
                                                 <div class="form-check">
                                                     <label class="form-check-label">
-                                                        <input type="radio" class="form-check-input"
-                                                            name="membershipRadios1" id="membershipRadios1" value=""
-                                                            checked> Boleta </label>
+                                                        <input type="radio" class="form-check-input" name="membershipRadios2" id="membershipRadios1" value="" checked> Boleta </label>
                                                 </div>
+                                            </div>
+                                            <div class="col-sm-3">
                                                 <div class="form-check">
                                                     <label class="form-check-label">
-                                                        <input type="radio" class="form-check-input"
-                                                            name="membershipRadios1" id="membershipRadios2"
-                                                            value="option2"> Factura </label>
+                                                        <input type="radio" class="form-check-input" name="membershipRadios2" id="membershipRadios2" value="option2"> Factura </label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label for="exampleTextarea1"
-                                                class="col-sm-3 col-form-label">Descripcion</label>
-                                            <div class="col-sm-9">
-                                                <textarea class="form-control" id="exampleTextarea1"
-                                                    rows="4"></textarea>
+                                            <label for="exampleTextarea1" class="col-sm-2 col-form-label">Descripción</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 d-flex justify-content-center">
@@ -127,42 +104,41 @@
                                 </form>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    <div class="col-lg-6 grid-margin stretch-card">
-                        <div class="table-responsive col-sm-12">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>N°</th>
-                                        <th>Cliente</th>
-                                        <th>Fecha</th>
-                                        <th>Agregado</th>
-                                        <th>Cantidad</th>
-                                        <th>Monto</th>
-                                        <th>Acciones</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Gus</td>
-                                        <td>21/03/2024</td>
-                                        <td>Agregado 1</td>
-                                        <td>13 cubos</td>
-                                        <td>S/.3200</td>
-                                        <td>
-                                            <button type="button" class="btn btn-warning btn-sm me-2">Editar</button><button
-                                                type="button" class="btn btn-danger btn-sm">Eliminar</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                </div>
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="table-responsive col-sm-12">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>N°</th>
+                                    <th>Cliente</th>
+                                    <th>Fecha</th>
+                                    <th>Agregado</th>
+                                    <th>Cantidad</th>
+                                    <th>Monto</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Gus</td>
+                                    <td>21/03/2024</td>
+                                    <td>Agregado 1</td>
+                                    <td>13 cubos</td>
+                                    <td>S/.3200</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning btn-sm me-2">Editar</button><button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     <footer class="footer">
@@ -177,6 +153,6 @@
     </div>
     <!-- page-body-wrapper ends -->
     </div>
-    <?php require_once "modules/scripts.php"?>
+    <?php require_once "modules/scripts.php" ?>
 
 </html>

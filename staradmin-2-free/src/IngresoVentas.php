@@ -10,7 +10,11 @@
 
 <body class="with-welcome-text">
     <div class="container-scroller">
+<<<<<<< HEAD
+         <?php require_once "modules/navbar.php"?>
+=======
         <?php require_once "modules/navbar.php" ?>
+>>>>>>> 52614c5d33333e35e854e07b374e63a50ef468e8
         <div class="main-panel">
             <div class="content-wrapper">
                 <div class="row">
